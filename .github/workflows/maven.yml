@@ -22,6 +22,7 @@ jobs:
         run: mvn clean install
       - name: Maven Test
         run: mvn test
+  
       - name: Coverage per Test Execution
         run: mvn org.jacoco:jacoco-maven-plugin:prepare-agent install -Pcoverage-per-test
   
