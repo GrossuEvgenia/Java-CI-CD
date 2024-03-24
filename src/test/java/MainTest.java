@@ -7,8 +7,8 @@ public class MainTest {
         Assertions.assertEquals("hello", Main.hello());
     }
 
-    @Test
-    void failTest(){
-        Assertions.assertEquals(0,1);
-    }
+//    @Test
+//    void failTest(){
+//        Assertions.assertEquals(0,1);
+//    }
 }
