@@ -18,10 +18,11 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.17
-      - name: Maven Package
-        run: mvn clean install
       - name: Maven Test
         run: mvn test
+      - name: Maven Package
+        run: mvn clean install
+  
       - name: Coverage per Test Execution
         run: mvn org.jacoco:jacoco-maven-plugin:prepare-agent install -Pcoverage-per-test
   
