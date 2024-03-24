@@ -6,4 +6,9 @@ public class MainTest {
     void helloSuccess(){
         Assertions.assertEquals("hello", Main.hello());
     }
+
+    @Test
+    void failTest(){
+        Assertions.assertEquals(0,1);
+    }
 }
