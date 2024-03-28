@@ -18,10 +18,14 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.17
+          distribution: 'adopt'
+          server-id: mvn-repo
+          settings-path: ${{ github.workspace }}
       - name: Maven Package
         run: mvn clean install
       - name: Maven Test
         run: mvn test  
-      - name: Coverage per Test Execution
-        run: mvn org.jacoco:jacoco-maven-plugin:prepare-agent install -Pcoverage-per-test
-  
+      - name: Publish to GitHub Packages Apache Maven
+        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
