@@ -19,7 +19,7 @@ jobs:
         with:
           java-version: 1.17
           distribution: 'adopt'
-          server-id: mvn-repo
+          server-id: github
           settings-path: ${{ github.workspace }}
       - name: Maven Package
         run: mvn clean install
