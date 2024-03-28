@@ -3,27 +3,27 @@
   <groupId>org.example</groupId>
   <artifactId>JavaCiCD</artifactId>
   <versioning>
-    <lastUpdated>20240328163840</lastUpdated>
+    <lastUpdated>20240328173049</lastUpdated>
     <snapshot>
-      <timestamp>20240328.163840</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20240328.173049</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20240328.163840-3</value>
-        <updated>20240328163840</updated>
+        <value>1.0-20240328.173049-1</value>
+        <updated>20240328173049</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20240328.163840-3</value>
-        <updated>20240328163840</updated>
+        <value>1.0-20240328.173049-1</value>
+        <updated>20240328173049</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0-20240328.163840-3</value>
-        <updated>20240328163840</updated>
+        <value>1.0-20240328.173049-1</value>
+        <updated>20240328173049</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
