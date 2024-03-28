@@ -16,7 +16,13 @@
         <testSourceDirectory>src/test/java</testSourceDirectory>
     </properties>
 
-
+    <distributionManagement>
+        <repository>
+            <id>mvn-repo</id>
+            <name>GrossuEvgenis</name>
+            <url>https://github.com/GrossuEvgenia/Java-CI-CD</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
