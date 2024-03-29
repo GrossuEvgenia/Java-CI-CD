@@ -99,7 +99,7 @@
                 <merge>true</merge>
                 <repositoryName>Java-CI-CD</repositoryName>
                 <repositoryOwner>GrossuEvgenia</repositoryOwner>
-                <server>github</server>
+                <server>mvn-repo</server>
             </configuration>
             <executions>
                 <execution>
