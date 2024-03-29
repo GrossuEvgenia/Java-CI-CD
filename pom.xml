@@ -27,7 +27,7 @@
     <distributionManagement>
         <repository>
             <id>mvn-repo</id>
-            <url>https://github.com/GrossuEvgenia/Java-CI-CD</url>
+            <url>https://github.com/GrossuEvgenia/Java-CI-CD/mvn-repo</url>
         </repository>
     </distributionManagement>
 
